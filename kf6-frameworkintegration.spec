@@ -30,6 +30,9 @@ BuildRequires: cmake(KF6NewStuff)
 BuildRequires: cmake(KF6ColorScheme)
 BuildRequires: cmake(KF6IconThemes)
 BuildRequires: cmake(KF6Notifications)
+# FIXME
+# Add BRs on packagekitqt6 and AppStreamQt once we have
+# packaged KDE6 versions of those
 Requires: %{libname} = %{EVRD}
 
 %description
