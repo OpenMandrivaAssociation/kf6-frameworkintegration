@@ -29,6 +29,7 @@ BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(KF6NewStuff)
 BuildRequires: cmake(KF6ColorScheme)
 BuildRequires: cmake(KF6IconThemes)
+BuildRequires: cmake(KF6Notifications)
 Requires: %{libname} = %{EVRD}
 
 %description
