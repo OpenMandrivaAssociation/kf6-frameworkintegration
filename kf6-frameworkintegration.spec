@@ -1,6 +1,6 @@
 %define libname %mklibname KF6FrameworkIntegraion
 %define devname %mklibname KF6FrameworkIntegraion -d
-%define git 20230609
+%define git 20230622
 
 Name: kf6-frameworkintegration
 Version: 5.240.0
@@ -72,6 +72,7 @@ Framework providing components to allow applications to integrate with a KDE Wor
 
 %files
 %{_datadir}/knotifications6/plasma_workspace.notifyrc
+%{_libdir}/libexec/kf6/kpackagehandlers/appstreamhandler
 
 %files -n %{devname}
 %{_includedir}/KF6/FrameworkIntegration
