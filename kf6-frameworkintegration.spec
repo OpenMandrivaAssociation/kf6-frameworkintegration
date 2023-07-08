@@ -30,9 +30,10 @@ BuildRequires: cmake(KF6NewStuff)
 BuildRequires: cmake(KF6ColorScheme)
 BuildRequires: cmake(KF6IconThemes)
 BuildRequires: cmake(KF6Notifications)
-# FIXME
-# Add BRs on packagekitqt6 and AppStreamQt once we have
-# packaged KDE6 versions of those
+BuildRequires: pkgconfig(packagekitqt6)
+BuildRequires: cmake(AppStreamQt) >= 1.0.0
+# Just to prevent pulling in KF5 versions
+BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
