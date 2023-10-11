@@ -1,6 +1,6 @@
 %define libname %mklibname KF6FrameworkIntegraion
 %define devname %mklibname KF6FrameworkIntegraion -d
-%define git 20231005
+%define git 20231011
 
 Name: kf6-frameworkintegration
 Version: 5.240.0
