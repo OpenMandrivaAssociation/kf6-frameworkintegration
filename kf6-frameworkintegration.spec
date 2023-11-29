@@ -5,7 +5,7 @@
 #define git 20231103
 
 Name: kf6-frameworkintegration
-Version: 5.245.0
+Version: 5.246.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/frameworkintegration/-/archive/master/frameworkintegration-master.tar.bz2#/frameworkintegration-%{git}.tar.bz2
