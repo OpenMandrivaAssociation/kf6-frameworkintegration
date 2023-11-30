@@ -38,8 +38,6 @@ BuildRequires: cmake(KF6IconThemes)
 BuildRequires: cmake(KF6Notifications)
 BuildRequires: pkgconfig(packagekitqt6)
 BuildRequires: cmake(AppStreamQt) >= 1.0.0
-# Just to prevent pulling in KF5 versions
-BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
