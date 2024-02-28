@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6FrameworkIntegraion
 %define devname %mklibname KF6FrameworkIntegraion -d
-%define git 20240217
+#define git 20240217
 
 Name: kf6-frameworkintegration
-Version: 5.250.0
+Version: 6.0.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/frameworkintegration/-/archive/master/frameworkintegration-master.tar.bz2#/frameworkintegration-%{git}.tar.bz2
