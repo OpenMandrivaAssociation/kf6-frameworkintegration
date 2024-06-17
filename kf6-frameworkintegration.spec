@@ -7,7 +7,7 @@
 
 Name: kf6-frameworkintegration
 Version: 6.3.0
-Release: %{?git:0.%{git}.}1
+Release: %{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/frameworkintegration/-/archive/master/frameworkintegration-master.tar.bz2#/frameworkintegration-%{git}.tar.bz2
 %else
@@ -39,7 +39,7 @@ BuildRequires: cmake(KF6ColorScheme)
 BuildRequires: cmake(KF6IconThemes)
 BuildRequires: cmake(KF6Notifications)
 BuildRequires: pkgconfig(packagekitqt6)
-BuildRequires: cmake(AppStreamQt) >= 1.0.0
+BuildRequires: cmake(AppStreamQt) >= 1.0.3
 Requires: %{libname} = %{EVRD}
 
 %description
