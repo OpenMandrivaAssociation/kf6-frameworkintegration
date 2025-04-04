@@ -7,7 +7,7 @@
 
 Name: kf6-frameworkintegration
 Version: 6.12.0
-Release: %{?git:0.%{git}.}2
+Release: %{?git:0.%{git}.}3
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/frameworkintegration/-/archive/master/frameworkintegration-master.tar.bz2#/frameworkintegration-%{git}.tar.bz2
 %else
